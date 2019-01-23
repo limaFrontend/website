@@ -55,6 +55,9 @@
     }
 
     @media (max-width: 600px) {
+      h6{
+        text-align: center;
+      }
       .container{
         width: 100%;
       }
@@ -62,7 +65,13 @@
         width: 100%;
       }
       .card{
+        border: none;
         width: 100%;
+        border-radius: 0;
+      }
+
+      .card.rounded .content .media img{
+        border-radius: 0;
       }
 
       .card img{
