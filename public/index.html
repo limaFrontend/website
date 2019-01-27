@@ -25,8 +25,15 @@
   <script>
     $(document).ready(function(){
       $('#show-old-events').click(function(){
-        $('.old-events').toggle(600);
-      })
+        $('.old-events').show();
+        $('#hide-old-events').show();
+        $('#show-old-events').hide();
+      });
+      $('#hide-old-events').click(function(){
+        $('.old-events').hide();
+        $('#show-old-events').show();
+        $('#hide-old-events').hide();
+      });
     });  
   </script>
   <style>
@@ -85,6 +92,10 @@
 
     a.action:hover{
       text-decoration: underline;
+    }
+
+    #hide-old-events{
+      display: none;
     }
 
     @media (max-width: 600px) {
@@ -188,6 +199,9 @@
           <br />
           <button id="show-old-events">
               Ver los eventos Anteriores
+          </button>
+          <button id="hide-old-events">
+              Ocultar los eventos Anteriores
           </button>
           <br />
           <br />
