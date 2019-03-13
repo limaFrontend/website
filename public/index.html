@@ -37,136 +37,100 @@
       });
     });  
   </script>
-  <style>
-    body {
-      font-family: 'Nunito Sans', sans-serif;
-    }
-
-    .font-logo {
-      font-family: 'Karla', sans-serif;
-    }
-
-    .font-bold{
-      font-weight: bolder;
-    }
-
-    a.link {
-      text-decoration: none;
-      color: dodgerblue !important;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    a.link-image {
-      outline: none;
-      text-decoration: none;
-    }
-
-    a.link-image img {
-      border: 1px solid #FFF;
-      padding: 6px;
-    }
-
-    a.link-image img:hover {
-      border: 1px solid #CCC;
-    }
-
-    .container-header {
-      position: relative;
-      width: 1024px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .container-header h5 {
-      margin: 0;
-    }
-
-    .container {
-      position: relative;
-      width: 550px;
-      margin: auto;
-    }
-
-    .button {
-      padding: 9px 24px 9px 24px;
-    }
-
-    .old-events {
-      display: none;
-    }
-
-    a.action {
-      color: black;
-      font-weight: lighter;
-      font-size: 16px;
-      text-decoration: none;
-    }
-
-    a.action:hover {
-      text-decoration: underline;
-    }
-
-    #hide-old-events {
-      display: none;
-    }
-
-    @media (max-width: 600px) {
-      h6 {
-        text-align: center;
-      }
-
-      .container {
-        width: 100%;
-      }
-
-      .container-header {
-        width: 100%;
-      }
-
-      .card {
-        border: none;
-        width: 100%;
-        border-radius: 0;
-      }
-
-      .card.rounded .content .media img {
-        border-radius: 0;
-      }
-
-      .card img {
-        width: 100%;
-        height: auto;
-      }
-    }
-
-    @media (max-width: 1000px) {
-      .container-header {
-        width: 100%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <div class="container-header">
-    <img height="39" class="margin-top-3 margin-left-9" src="img/limafrontend.png" alt="" />
-    <h5 class="font-logo">
-      &ltlima frontend/&gt
-    </h5>
+    <img height="45" class="margin-top-12 margin-left-9" src="img/limafrontend.png" alt="" />
+    <h6 class="font-karla">
+      <span class="font-secondary font-karla">&lt</span>lima frontend<span class="font-secondary font-karla">/&gt</span>
+    </h6>
   </div>
   <div class="container">
     <div class="flex">
       <div class="row">
         <div class="twelve">
-          <h6 class="margin-top-12 margin-bottom-12 font-primary">
+          <h6 class="margin-top-24 margin-bottom-12 subtitle-1-text font-secondary-text">
             Próximo Evento
           </h6>
-          <!-- h6 class="margin-top-12 margin-bottom-12 font-primary">
+          <div class="card margin-clear center rounded">
+            <div class="content">
+              <div class="media">
+                <img src="https://i.ibb.co/ZHLjWBv/figma-live.png" alt="">
+              </div>
+              <div class="description">
+                <h5>Aprendamos a prototipar con Figma <br />(En vivo)</h5>
+                <br />
+                <p>
+                  <span class="font-bold">
+                    ¡Hola Frontends! 🖐️
+                  </span>
+                  <br />
+                  <br />
+                  De acuerdo a la última encuesta hecha en nuestro fan page.
+                  <br />
+                  <br />
+                  Se realizarán 3 eventos en vivo los días 22 de Marzo, 5 de Abril y 12 de Abril
+                  <br />                                  
+                  <!-- h6>TEMARIO Y FECHAS</h6>
+                  <br />
+                  <span class="font-bold">Live 1 (22 de Marzo)</span>
+                  <ul>
+                    <li>
+                      1. Porqué debemos prototipar?
+                    </li>
+                    <li>
+                      2. Tipos de prototipos
+                    </li>
+                    <li>
+                      3. Herramientas de prototipado digital
+                    </li>
+                    <li>
+                      4. Conociendo Figma
+                    </li>
+                  </ul>
+                  <span class="font-bold">Live 2 (5 de Abril)</span>
+                  <ul>
+                    <li>
+                      1. Qué es un sistema de diseño?
+                    </li>
+                    <li>
+                      2. Ordenando nuestros recursos (Sistema de Texto, Sistema de Color, temas)
+                    </li>
+                    <li>
+                      3. Componentes en Figma
+                    </li>
+                  </ul>
+                  <span class="font-bold">Live 3 (12 de Abril)</span>
+                  <ul>
+                    <li>
+                      1. Sistema de formularios
+                    </li>
+                    <li>
+                      2. Haciendo nuestro primer prototipo
+                    </li>
+                    <li>
+                      3. Exportando recursos
+                    </li>
+                  </ul-->          
+                </p>
+                <p>
+                  Así mismo los live serán transmitidos por nuestro canal de Youtube. Recuerden suscribirse después de registrarse :)
+                  <br />              
+                </p>
+              </div>
+              <div class="controls">
+                <a href="https://www.meetup.com/es-ES/Lima-Frontend/events/259689324/"
+                  class="button rounded primary margin-bottom-6 margin-left-6" target="_blank">
+                  Registrate
+                </a>
+              </div>
+            </div>
+          </div>
+          <h6 class="margin-top-36 margin-bottom-12 subtitle-1-text font-secondary-text">
             Siguiente Evento
-          </h6 -->
+          </h6>
           <div class="card margin-clear center rounded">
             <div class="content">
               <div class="media">
